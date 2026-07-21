@@ -37,21 +37,21 @@ Priced in **Indian Rupees (₹)** throughout, with a 24-item catalog across six 
 
 ```
 novara/
-├── server/                # Express + MongoDB API
+├── server/                
 │   ├── config/db.js
-│   ├── models/            # User, Product, Order (Mongoose)
-│   ├── middleware/        # JWT auth, admin guard, error handler
-│   ├── controllers/       # auth, products, orders, AI
+│   ├── models/            
+│   ├── middleware/        
+│   ├── controllers/       
 │   ├── routes/
-│   ├── seed/               # demo catalog + seeding script
+│   ├── seed/               
 │   └── server.js
-└── client/                 # React 18 + Vite + Tailwind
+└── client/                 
     ├── src/
     │   ├── api/axios.js
-    │   ├── context/        # AuthContext, CartContext
-    │   ├── components/     # Navbar, Footer, ProductCard, AIConcierge…
-    │   └── pages/           # Home, Shop, ProductDetail, Cart, Checkout,
-    │                        # Login, Register, Profile, Orders, Admin
+    │   ├── context/        
+    │   ├── components/     
+    │   └── pages/          
+    │                        
     └── index.html
 ```
 
